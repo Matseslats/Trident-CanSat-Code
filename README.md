@@ -6,12 +6,14 @@ This is a repository with the files used for programming the CanSat Trident.
 
 ## How do I use this?
 To copy files to the CanSat use the following command:
+
 ```bash
 scp -r C:\<YOUR PATH HERE>\Trident-CanSat-Code trident@trident:/home/trident/
 ```
 
 **Boot test:**
 Make a systemd process from the boot test code:
+
 ```bash
 sudo cp /home/trident/boot-test/blink_leds.service /etc/systemd/system/
 systemctl daemon-reload
