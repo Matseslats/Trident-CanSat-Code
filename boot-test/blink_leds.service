@@ -1,0 +1,6 @@
+[Unit]
+Description=Systemd service for blinking leds at startup
+[Service]
+ExecStart=sudo sh /home/trident/boot-test/test_leds.sh
+[Install]
+WantedBy=default.target
