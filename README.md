@@ -24,13 +24,16 @@ Run `flight-code/main.py` with Python 3.x
 Adjust config variables in the same file near the top.
 
 **Ground Station:**
-Run the sketch_3d_view code with processing 3 or higher. The libraries in the `libraries` folder should be copied to your local processing libraries filder as follows:
+Run the `gss/sketch_3d_view/` code with processing 3 or higher. The libraries in the `libraries` folder should be copied to your local processing libraries filder as follows:
 
 ```bash
-Processing
---> Libraries
-----> toxiclibs
-----> Unfolding
+/Processing/
+/Processing/Libraries/
+/Processing/Libraries/toxiclibs/
+/Processing/Libraries/Unfolding/
 ```
 
 The video feed can be found at `http://10.0.0.16:8080` for example by using VLC Network Stream
+
+## Gathered data:
+Data can be found in the `/gathered-data/` folder. The visualization program is found in the `/gss/sketch_3d_view_launchdata/` folder. The program is the same as the ground station program, with a few changes.
