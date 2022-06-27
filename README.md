@@ -32,3 +32,5 @@ Processing
 ----> toxiclibs
 ----> Unfolding
 ```
+
+The video feed can be found at `http://10.0.0.16:8080` for example by using VLC Network Stream
